@@ -1,0 +1,155 @@
+/* Estilo para tablets */
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+  /* Qualidade - Home */
+  .quality::after {
+    right: 6.6rem;
+  }
+
+  .quality-list li {
+    padding: 0 1rem;
+  }
+
+  /* Footer */
+  .footer-social ul li a {
+    padding: 0.6rem;
+  }
+
+  .footer-social ul li a img {
+    width: 2.6rem;
+    height: 2.6rem;
+  }
+
+  /* Produtos */
+  .products-item h2 {
+    top: -15rem;
+    margin-bottom: -5.6rem;
+  }
+
+  .product-icon {
+    padding: 4.1rem 0;
+  }
+
+  .product-info p {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    padding: 2rem 3rem;
+    height: 12.2rem;
+  }
+
+  .product-info ul li {
+    width: 18.1rem;
+  }
+}
+
+/* Final do estilo para tablets */
+
+/* Estilo para smartphones */
+@media only screen and (max-width: 787px) {
+  /* Header */
+  .header {
+    position: relative;
+    padding-bottom: 0;
+  }
+
+  .header img {
+    margin: 0 auto 1rem auto;
+  }
+
+  .header_menu {
+    text-align: center;
+  }
+
+  .header_menu ul li {
+    margin: 0.5rem;
+  }
+
+  .header_menu ul li a {
+    border: 0.4rem solid #000;
+    width: 13.6rem;
+    display: block;
+    float: left;
+  }
+
+  .header_menu ul li a:hover {
+    border-color: #fff;
+  }
+
+  .header_menu ul li a.active-menu {
+    border-color: #fff;
+  }
+
+  /* Introdução */
+
+  .introduction {
+    background: url(../assets/bg-mobile.jpg) no-repeat center;
+    margin-top: 0;
+    padding-top: 4rem;
+  }
+
+  .introduction h1 {
+    font-size: 3.6rem;
+  }
+
+  /* CTA */
+  .cta {
+    padding-top: 1rem;
+  }
+
+  /* Qualidade - Home */
+  .quality::after {
+    display: none;
+  }
+
+  /* Introdução Interna */
+  .internal-introduction {
+    margin-top: 0;
+  }
+
+  /* Sobre */
+  .values-about p {
+    padding-right: 0;
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+
+  .values-about ul li {
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+  }
+
+  /* Produtos */
+  .products-item h2 {
+    top: -10rem;
+    margin-bottom: -6.8rem;
+  }
+
+  .product-info p {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    height: auto;
+    padding: 2rem 3rem;
+  }
+
+  .product-info ul li {
+    width: 14.9rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    padding-top: 1.4rem;
+  }
+
+  .form {
+    padding-right: 0;
+  }
+
+  .data-budget ul {
+    padding-right: 0;
+  }
+
+  /* Contato */
+  .contact-form {
+    padding-right: 0;
+    margin-bottom: 4rem;
+  }
+}
+
+/* Final do estilo para smartphones */

@@ -1,0 +1,86 @@
+.internal-contact {
+  background: url(../assets/bg-contato.jpg) no-repeat center;
+  background-size: cover;
+}
+
+/* Orçamento */
+.contact {
+  padding: 4rem 0;
+}
+
+.contact-form {
+  padding-right: 6rem;
+}
+
+.contact-form label {
+  display: block;
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  margin-bottom: 0.4rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  display: block;
+  width: 100%;
+  border: 0.4rem solid #fec63e;
+  background: none;
+  padding: 0.7rem 1rem;
+  margin-bottom: 1rem;
+  outline: none;
+  font-size: 1.4rem;
+  font-family: "Georgia", "Times New Roman", serif;
+}
+
+.contact-form textarea {
+  height: 12rem;
+  margin-bottom: 2rem;
+}
+
+.contact-form .btn {
+  background: none;
+  padding: 0.7rem 4rem;
+}
+
+.data-contact h3 {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  color: #fec63e;
+  line-height: 2.5rem;
+  font-weight: bold;
+}
+
+.data-contact span {
+  display: block;
+  font-size: 1.8rem;
+  font-family: "Georgia", "Times New Roman", serif;
+  line-height: 3rem;
+}
+
+.data-contact span:nth-of-type(even) {
+  margin-bottom: 3rem;
+}
+
+.data-contact ul {
+  margin-top: 1rem;
+}
+
+.data-contact ul li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.data-contact ul li a {
+  display: block;
+  border: 0.3rem solid #fec63e;
+  padding: 1rem;
+}
+
+.data-contact ul li a:hover {
+  border-color: #000;
+}
+
+.contact-map {
+  margin-bottom: 6rem;
+}
