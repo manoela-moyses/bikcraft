@@ -24,3 +24,30 @@
   float: right;
   font-style: normal;
 }
+
+.internal-portfolio {
+  background: url(../assets/bg-portfolio.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.client_quotes {
+  padding: 6rem 0;
+  max-width: 46rem;
+  margin: 0 auto;
+}
+
+.client_quotes p {
+  text-align: center;
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+
+.client_quotes cite {
+  font-weight: bold;
+  font-size: 1.8rem;
+  float: right;
+  font-style: normal;
+}

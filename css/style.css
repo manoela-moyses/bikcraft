@@ -440,7 +440,8 @@ img {
   position: absolute;
 }
 
-#form-sucesso, #form-sucesso h2 {
+#form-sucesso,
+#form-sucesso h2 {
   color: #31aa39;
 }
 

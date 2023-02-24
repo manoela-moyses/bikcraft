@@ -15,17 +15,17 @@ $site_name = "Bikcraft"; // Nome do Site
 $site_url = "www.manoela-moyses.github.io/bikcraft"; // URL do Site
 
 $host_smtp = "smtp.manoela-moyses.github.io/bikcraft"; // HOST SMTP Ex: smtp.domain.com.br
-$host_port = "587"; // Porta do Host, geralmente 465 ou 587
+$host_port = "465"; // Porta do Host, geralmente 465 ou 587
 
 
 // Não mudar abaixo:
 $email = $_POST["email"];
-$nome = $_POST["nome"];
+$nome = $_POST["name"];
 
 // Loop por cada field do formulário
 $body_content = "";
 foreach( $_POST as $field => $value) {
-  if( $field !== "leaveblank" && $field !== "dontchange" && $field !== "enviar") {
+  if( $field !== "leaveblank" && $field !== "dontchange" && $field !== "submit") {
     $sanitize_value = filter_var($value, FILTER_SANITIZE_STRING);
     $body_content .= "$field: $value \n";
   }
