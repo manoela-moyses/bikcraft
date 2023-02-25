@@ -1,0 +1,78 @@
+.internal-contact {
+  background: url(../assets/bg-contato.jpg) no-repeat center;
+  background-size: cover;
+}
+
+/* Orçamento */
+.contact {
+  padding: 4rem 0;
+}
+
+.contact-form {
+  padding-right: 6rem;
+  @include d(mobile) {
+    padding-right: 0;
+    margin-bottom: 4rem;
+  }
+  label {
+    display: block;
+    margin-bottom: 0.4rem;
+    @include type-2(1.8);
+  }
+  input,
+  textarea {
+    display: block;
+    width: 100%;
+    border: 0.4rem solid $primary-color;
+    background: none;
+    padding: 0.7rem 1rem;
+    margin-bottom: 1rem;
+    outline: none;
+    @include type-2(1.4);
+  }
+  textarea {
+    height: 12rem;
+    margin-bottom: 2rem;
+  }
+  .btn {
+    background: none;
+    padding: 0.7rem 4rem;
+  }
+}
+
+.data-contact {
+  h3 {
+    text-transform: uppercase;
+    color: $primary-color;
+    font-weight: bold;
+    @include type-1(1.8);
+  }
+  span {
+    display: block;
+    @include type-2(1.8);
+    line-height: 3rem;
+    &:nth-of-type(even) {
+      margin-bottom: 3rem;
+    }
+  }
+
+  ul {
+    margin-top: 1rem;
+    li {
+      display: inline-block;
+      margin-right: 1rem;
+      a {
+        display: block;
+        border: 0.3rem solid $primary-color;
+        padding: 1rem;
+      }
+      &:hover {
+        border-color: $dark-color;
+      }
+    }
+  }
+}
+
+.contact-map {
+  margin-bottom: 6rem;
+}

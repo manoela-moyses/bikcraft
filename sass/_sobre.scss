@@ -1,0 +1,29 @@
+.internal-about {
+  background: url(../assets/bg-sobre.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.values-about {
+  padding-top: 6rem;
+  p {
+    @include type-2(1.8);
+    margin-bottom: 1em;
+    padding-right: 6rem;
+    @include d(mobile) {
+      @include type-2(1.4);
+      padding-right: 0;
+    }
+  }
+  ul li {
+    @include type-2(1.8);
+    line-height: 3rem;
+    @include d(mobile) {
+      @include type-2(1.4);
+      line-height: 2.5rem;
+    }
+  }
+}
+
+.team-picture {
+  padding-top: 2rem;
+}
